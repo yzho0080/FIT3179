@@ -1,4 +1,4 @@
-Country,Suicide_rate,ISO-code,Urbanization rate,Fertility,Life_expectancy,Meat_consumption,Median_age,Population_growth,Sex-ratio,GDP_per_capita,Continent
+Country,Suicide_rate,ISO-code,Urbanization_rate,Fertility,Life_expectancy,Meat_consumption,Median_age,Population_growth,Sex-ratio,GDP_per_capita,Continent
 Afghanistan,6.4,AFG,26,4.5,64.5,17.3,27.4,2.41,1.03,2182,Asia
 Albania,5.6,ALB,62.1,1.6,#N/A,#N/A,32.9,0.26,0.98,14866,Europe
 Algeria,3.3,DZA,73.7,3,76.7,18.3,28.1,1.89,1.03,16091,Africa
