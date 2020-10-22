@@ -6,27 +6,35 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-	
-<!-- CSS file -->
+  
+  <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
   
-	
-
-	
 </head>
 <body>
 
+<h1>An Example of Multiple Visualisations</h1>
+
+<h2>This is the first visualisation</h2>
 <div id="choropleth_map"></div>
 
+<h2>This is the second visualisation</h2>
+<div id="scatter_plot"></div>
 
 <script type="text/javascript">
-  var spec = "https://yzho0080.github.io/FIT3179/Week9_HW.json";
-  vegaEmbed('#choropleth_map', spec).then(function(result) {
+  
+  var vis1 = "World.geo-2.topojson";
+  
+  vegaEmbed('#choropleth_map', vis1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var vis2 = "life expectancy vs GDP.json";
+  
+  vegaEmbed('#scatter_plot', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
 
-
-  
 </body>
 </html>
