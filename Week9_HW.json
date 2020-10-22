@@ -27,13 +27,13 @@
       "type": "quantitative",
       "scale": {
         "type": "threshold",
-        "domain": [5000, 10000, 30000, 50000],
-        "range": ["#c2ebf6", "#87CEFA", "#6495ED","#4169E1", "#0000CD"]
+        "domain": [2500 ,5000, 10000, 30000, 50000],
+        "range": ["#eff3ff", "#c6dbef", "#9ecae1","#6baed6", "#3182bd","#08519c"]
       }
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "Country"},
-      {"field": "GDP per capita", "type": "quantitative"}
+      {"field": "GDP per capita", "type": "quantitative","format":","}
     ]
   },
   "config": {}
